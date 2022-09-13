@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Форма</title>
+    </head>
+    <body bgcolor="#FFFFE0">
+         <form method="post" action="">
+            <pre>
+                  &#9989; <a href="url">Принять участие</a> (Заполните форму-заявку на участие)
+                  ФИО(полностью) * <input type="fio" name="fio" value="" size="60" align="left">
+
+                  Возраст *        <input type="vozrast" name="vozrast" maxlength="3" size="60" align="left">
+
+                  Эл. почта *      <input type="email" name="email" size="60" align="left" value="">
+
+                  Адрес vk или fb *<input type="adress" name="adress" size="60" align="left" value="">
+
+                  Пол              <input type="radio" name="question" value="f"> Женский
+                                   <input type="radio" name="question" value="m"> Мужской
+
+                  Телефон *        <input type="tel" name="tel" size="60" align="left" value="">
+                  
+                  Вы *             <input type="radio" name="question" value="stu"> Студент
+                                   <input type="radio" name="question" value="molodych"> Молодой учёный
+
+                  Местно работы или<input type="place" name="place" size="60" align="left" value="">
+                  учебы *
+
+                  Должность или    <input type="dIk" name="dIk" size="60" align="left" value="">
+                  курс *
+
+                  Страна *         <input type="strana" name="strana" size="60" align="left" value="">
+
+                  Город *          <input type="gorod" name="gorod" size="60" align="left" value="">
+
+                  Адрес с почтовым <input type="index" name="index" size="60" align="left" value="">
+                  индексом *
+
+                  Форма участия *  <input type="radio" name="question" value="zaoch"> Заочно (только публикация тезисов)
+                                   <input type="radio" name="question" value="och"> Очно   (доклад публикация)
+                  Сборник тезисов *<input type="radio" name="question" value="pechat"> Печатный
+                                   <input type="radio" name="question" value="pdf"> PDF
+
+                  Подтверждение    <a href="url">прикрепить файл к заявке</a>
+                  орг.взноса (копия
+                  чека) *                 
+
+                  Тезис *          <a href="url">прикрепить файл к заявке</a>
+
+                  Форма доклада *  <select name="curs" size="1">
+                     <option value="1" selected>устный</option>
+                     <option value="2">не устный</option>
+                  </select>
+            </pre>
+            <pre>
+               Название доклада 
+                                 <textarea name="name" rows="5" cols="40" align="left"></textarea>
+                  
+               ФИО               <input type="fio" name="fio" value="" size="60" align="left">
+               Содокладчиков     
+               
+               e-mail соавторов  <input type="email" name="email" size="60" align="left" value="">
+               (через запятую) *
+
+               Бронировать место  <input type="radio" name="question" value="y"> Yes
+               для проживания *   <input type="radio" name="question" value="n"> No
+               
+               Спасибо, регистрация завершена, чтобы опубликовать еще один тезис, нужно снова
+               пройти регистрацию
+
+               <center><input type="button" value="Отправить"></center>
+            </pre>
+         </form>
+    </body>
+</html>
